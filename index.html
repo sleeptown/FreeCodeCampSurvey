@@ -9,14 +9,19 @@
 	</head>
 	<body>
 		<h1 id="title">Survey</h1>
-		<p id="description"></p>
+		<p id="description">Please fill out all required information.</p>
 		<form id="survey-form">
-			<label for="name-label">Name</label>
-			<input type="text" id="name-label" required />
-			<label for="email-label">Email</label>
-			<input type="text" id="email-label" required />
-			<label for="number">Number</label>
+			<label for="name" id="name-label" placeholder="Name">Name: </label>
+			<input type="text" id="name" required />
+			<label for="email" id="email-label" placeholder="abcd@gmail.com"
+				>Email:
+			</label>
+			<input type="text" id="email" required />
+			<label for="number" id="number-label" placeholder="123-456-7890"
+				>Number:
+			</label>
 			<input type="text" id="number" required />
+			<button type="submit">Submit</button>
 		</form>
 	</body>
 </html>
